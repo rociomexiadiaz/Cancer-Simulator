@@ -15,3 +15,6 @@ If a cell is alive, it will die under the following circumstances:
 · Loneliness: If the cell has one or fewer alive neighbours, it dies  
 If a cell is dead, it will come to life if it has exactly three alive neighbours  
 In all other cases, the cell state does not change  
+
+## Code to run
+This code should be run from the terminal or command prompt. From terminal, move to current working directory where this script.py and cellsim.py are located. Then run script.py.
