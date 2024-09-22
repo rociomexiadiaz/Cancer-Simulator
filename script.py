@@ -1,0 +1,10 @@
+tissue = cellsim.Tissue(10,40)
+tissue.seed_random(0.5,cellsim.Cell)
+print('time step:', 0)
+print(tissue)
+for i in range(1,100):
+    os.system('clear') #will be os.system('cls')
+    print('time step:', i) 
+    tissue.next_state()
+    print(tissue)
+    time.sleep(0.1)
