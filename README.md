@@ -17,4 +17,4 @@ If a cell is dead, it will come to life if it has exactly three alive neighbours
 In all other cases, the cell state does not change  
 
 ## Running the code
-This code should be run from the terminal or command prompt. From terminal, move to current working directory where the script.py and cellsim.py are located. Then run script.py.
+This code should be run from the terminal or command prompt. From terminal, move to current working directory where the script.py and cellsim.py are located. Then run script.py, in this code you can edit the size of the tissue and the percentage of alive cells at time zero.
